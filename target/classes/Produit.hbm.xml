@@ -1,0 +1,17 @@
+<!--   <?xml version="1.0"?>
+
+
+<hibernate-mapping>
+    <class name="model.Produit" table="produits">
+
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+
+        <property name="nom" column="nom" not-null="true" length="100"/>
+        <property name="prix" column="prix" not-null="true"/>
+        <property name="quantite" column="quantite" not-null="true"/>
+
+    </class>
+</hibernate-mapping> -->
+<!-- hd l fichiers kamlin ky3etiw l mapping dyl l classes -->
